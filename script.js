@@ -31,3 +31,5 @@ controlNext.addEventListener("click", (e)=>{
     }
     changeSlide();
 })
+
+
