@@ -209,8 +209,125 @@ nav{
 .products-slider .products img{
     max-width: 200px;
     max-height: 200px;
+    cursor: pointer;
 }
 
 .products-slider .products::-webkit-scrollbar{
     display: none;
+}
+
+.products-slider-two{
+    background-color: #ffffff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.products-slider-two .products{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.products-slider-two .products::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background-color: #fbfbfb;
+}
+
+.product-card img{
+    width: 110px;
+    margin: 0 50px;
+}
+
+.product-offer p{
+    background-color: #be0b3b;
+    color: #ffffff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+.product-offer span{
+    color: #be0b3b;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.product-price{
+    color: gray;
+    font-size: 13px;
+}
+
+.product-card .list-price{
+    text-decoration: line-through;
+}
+.product-card .offer-price{
+    font-size: 20px;
+    color: #000000;
+    margin-left: 0;
+}
+
+.product-card h4{
+    color: #525252;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #0f1111;
+    color: #ffffff;
+}
+
+footer div{
+    background-color: #232f32;
+    padding: 10px;
+}
+
+footer .copyright{
+    background-color: #0f1111;
+}
+footer .copyright-one, .copyright-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+}
+
+footer .footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+footer #back-to-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: hsla(193, 18%, 25%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer #back-to-top:hover{
+    background-color: hsl(193, 18%, 35%);
 }

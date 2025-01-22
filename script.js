@@ -32,4 +32,11 @@ controlNext.addEventListener("click", (e)=>{
     changeSlide();
 })
 
+const products = document.querySelectorAll(".products");
+for (const product of products){
+    product.addEventListener("wheel", (e)=>{
+        e.preventDefault();
+        product.scrollLeft += e.deltaY
+    })
+}
 
